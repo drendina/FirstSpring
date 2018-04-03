@@ -43,9 +43,16 @@ public class BookController {
   }
 	
   //mostra la lista dei libri
+ // @RequestMapping(value = "/getview")
+  //public String view(Model model) {
+   // model.addAttribute("bookList",bookList);
+   // return "/book/view";
+  //}
+  
   @RequestMapping(value = "/getview")
-  public String view(Model model) {
+  public String view1(Model model) {
     model.addAttribute("bookList",bookList);
-    return "/book/view";
+    return "/book/view1";
   }
+  
 }
