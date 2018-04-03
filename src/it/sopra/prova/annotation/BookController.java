@@ -22,6 +22,8 @@ public class BookController {
     bookList = new ArrayList<Book>();
   }
 	
+  // new comment 
+  
   //Mostra la pagina di creazione 
   @RequestMapping(value = "/createBook", method = RequestMethod.GET)
   public String welcome(Model model) {
