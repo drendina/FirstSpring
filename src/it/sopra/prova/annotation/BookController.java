@@ -22,7 +22,7 @@ public class BookController {
     bookList = new ArrayList<Book>();
   }
 	
-  // new comment 
+  // new comment 1
   
   //Mostra la pagina di creazione 
   @RequestMapping(value = "/createBook", method = RequestMethod.GET)
