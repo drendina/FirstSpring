@@ -24,7 +24,7 @@ public class BookController {
     bookList = new ArrayList<Book>();
   }
 	
-  // new comment 1 alterate
+  // new comment 1 alterate 0011
   // new comment id 02
   
   //Mostra la pagina di creazione 
