@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import it.sopra.prova.dto.Book;
 
-//add a comment 01
 
 @Controller
 public class BookController {
@@ -24,8 +23,7 @@ public class BookController {
     bookList = new ArrayList<Book>();
   }
 	
-  // new comment 1 alterate 0011222
-  // new comment id 02
+  // new comment 1 alterate 0011223344
   
   //Mostra la pagina di creazione 
   @RequestMapping(value = "/createBook", method = RequestMethod.GET)
