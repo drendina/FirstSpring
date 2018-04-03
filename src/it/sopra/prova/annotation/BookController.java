@@ -23,6 +23,7 @@ public class BookController {
   }
 	
   // new comment 1 alterate
+  // new comment id 02
   
   //Mostra la pagina di creazione 
   @RequestMapping(value = "/createBook", method = RequestMethod.GET)
