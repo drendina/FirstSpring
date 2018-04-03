@@ -9,6 +9,9 @@ import javax.validation.constraints.Size;
 import org.springframework.format.annotation.DateTimeFormat;
 
 public class Book {
+	
+	// new comment 2
+	
 	@Size(min = 1, message = "Il campo nome non può essere vuoto")
 	@Pattern(regexp = "[A-Za-z0-9 _]+", message = "Il campo nome può essere composto solo da lettere")
 	private String nome;
