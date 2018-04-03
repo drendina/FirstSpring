@@ -16,14 +16,9 @@ import it.sopra.prova.dto.Book;
 @Controller
 public class BookController {
 	
-<<<<<<< HEAD
+
 	// comment master1
-	
-=======
 
-	//comment branch1
-
->>>>>>> newBranch
 	private List<Book> bookList;
 
 	public BookController() {
