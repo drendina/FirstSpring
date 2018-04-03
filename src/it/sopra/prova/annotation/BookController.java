@@ -15,7 +15,7 @@ import it.sopra.prova.dto.Book;
 
 @Controller
 public class BookController {
-
+	
 	//comment
 	
 	private List<Book> bookList;
