@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import it.sopra.prova.dto.Book;
 
-//add a comment
+//add a comment 01
 
 @Controller
 public class BookController {
@@ -24,6 +24,9 @@ public class BookController {
     bookList = new ArrayList<Book>();
   }
 	
+  // new comment 1 alterate
+  // new comment id 02
+  
   //Mostra la pagina di creazione 
   @RequestMapping(value = "/createBook", method = RequestMethod.GET)
   public String welcome(Model model) {
@@ -42,9 +45,16 @@ public class BookController {
   }
 	
   //mostra la lista dei libri
+ // @RequestMapping(value = "/getview")
+  //public String view(Model model) {
+   // model.addAttribute("bookList",bookList);
+   // return "/book/view";
+  //}
+  
   @RequestMapping(value = "/getview")
-  public String view(Model model) {
+  public String view1(Model model) {
     model.addAttribute("bookList",bookList);
-    return "/book/view";
+    return "/book/view1";
   }
+  
 }
